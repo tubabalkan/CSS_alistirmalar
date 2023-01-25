@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;;
+}
+
+.gradient {
+    background: linear-gradient(90deg, rgba(45,156,219,.6),rgba(155,81,224,.6));
+}
+
+.btn {
+    padding:10px 20px ;
+    border-radius: 25px; /* Kutucugu oval yapar */
+    color: white;
+    text-decoration: none; /* Yazının altındaki çizgiyi siler */
+    -webkit-box-shadow: 2px 2px 15px 7px rgba(0,0,0,0.3); 
+    box-shadow: 2px 2px 15px 7px rgba(0,0,0,0.3); /* Kutuyu gölgeli yapar*/
+}
+
+/* w3schools.com  css-tricks */
+
+
+.container {
+    margin-top: 50px;/* yukarı kısımdan 50px boşluk verir*/
+    width: 1000px;
+   /* margin-left: auto;/* kendisi ayarlıyor */
+   /* margin-right: auto;*/
+
+   margin: 50px auto 0 ; /* Yukarıdan sıfır ortadan kendisi ayarla aşağıdan 0  saat yöntemi*/
+
+}
+
+
+
+.card {
+    width: 17%;
+    float: left;
+    padding: 4%;
+    margin: 3%;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;/* çerçeve kenarlarını oval yapar*/
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: left;
+    
+}
+.clear {
+    clear: both;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+
+.bg-red {
+    background-color: brown;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+
+
+
+
