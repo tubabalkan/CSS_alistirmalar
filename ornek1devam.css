@@ -1,0 +1,68 @@
+/* class -> .text-red {} */
+/* id -> #id-bilgisi {} */
+
+/* li:first-child {
+    color: green;
+}
+
+li:last-child {
+    color: aqua;
+} */
+
+li:nth-child(2) { 
+    background: red;/* fosforlu kalem kullanmak gibi */
+}
+
+li:nth-child(3) {
+    color: blueviolet; /* yazıyı mor a çevirir*/
+}
+
+li:nth-child(odd) {
+    color: rgb(82, 5, 11); /* Tek sayıları mavı yapar*/
+}
+
+li:nth-child(even) {
+    color:tomato;  /* çift sayıların rengini değiştirir*/
+}
+
+li:nth-child(3n) {
+    color: red; /* 3 ün katlarını kırmızı yapar*/
+}
+
+.color-blue.fw-normal {
+    color: blue;
+    font-size: normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #644a4a;
+}
+
+h1{
+    font-size: 30px;
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+#first-article{
+    font-size: 40px;
+}
+.text-red{
+    color: red;
+}
+
+.fs-10{
+    font-size: 14px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+
+.fs-30{
+    font-size: 30px;
+}
