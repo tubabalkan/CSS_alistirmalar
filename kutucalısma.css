@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.clear {
+    clear: both;
+}
+
+
+.box {
+    background-color: brown;
+    width: 300px; /* kutu boyutunu ayarlıyor*/
+    height: 300px;
+    padding: 10px; /* kutu içindeki yazının başladığı kısmın uzaklıgı */
+    /*margin: 10px; /* iki kutu arası boşluk */
+    margin-right: 10px; /* iki kutu arasındaki boşluk*/
+    /*margin-left: 10px;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+    float: left; /* Kutuları yan ayana alma */
+
+}
+
+.bg-red {
+    background-color: brown;
+}
+
+.bg-green {
+    background-color: green;
+}
